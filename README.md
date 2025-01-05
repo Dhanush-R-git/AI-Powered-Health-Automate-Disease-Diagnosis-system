@@ -1,1 +1,1 @@
-# AI-Powered-Health-Automate-Disease-Diagnosis-system
+# AI-Powered Health [Automate Disease Diagnosis system]
