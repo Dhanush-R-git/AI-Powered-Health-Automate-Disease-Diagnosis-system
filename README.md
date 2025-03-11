@@ -19,7 +19,8 @@ Parkinson’s disease is a progressive nervous system disorder that affects move
 
 [Learn more about Parkinson's Disease](https://www.parkinson.org/understanding-parkinsons/what-is-parkinsons)
 
-## 📂 Project Structure
+## 📂 Project dir Structure
+```bash
 health_prediction_system/
 │── dataset/                    
 │   ├── diabetes.csv
@@ -31,15 +32,15 @@ health_prediction_system/
 │   ├── heart_model.pkl
 │   ├── parkinson_model.pkl
 │
-│── logs/                      # Stores training logs
-│   ├── training_2025-03-10_14-30-00.log
+│── logs/
+│   ├── Stores training logs
 │
 │── requirements.txt          
-│── train_model.py             
+│── TrainModel.py             
 │── app.py                     
 │── utils.py                  
 │── README.md  
-
+```
 ## Usage
 
 To use this system, follow these steps:
