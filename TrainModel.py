@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import joblib
+import pickle
 import os
 import logging
 from datetime import datetime
@@ -72,8 +72,8 @@ def train_and_save_model(dataset_path, model_name, target_column="target", drop_
     logging.info(f"Meta model trained for {model_name}.")
 
     # Save trained model
-    model_path = f"model_saved/{model_name}.pkl"
-    joblib.dump(meta_model, model_path)
+    model_path = f"model_saved/{model_name}.sav"
+    pickle.dump(meta_model, open(model_path, 'wb'))
 
     logging.info(f"Model saved: {model_path}")
 
