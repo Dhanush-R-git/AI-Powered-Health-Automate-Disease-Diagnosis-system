@@ -20,7 +20,7 @@ Parkinson’s disease is a progressive nervous system disorder that affects move
 [Learn more about Parkinson's Disease](https://www.parkinson.org/understanding-parkinsons/what-is-parkinsons)
 
 ## 📂 Project Structure
-{health_prediction_system/
+health_prediction_system/
 │── dataset/                    
 │   ├── diabetes.csv
 │   ├── heart.csv
@@ -38,7 +38,7 @@ Parkinson’s disease is a progressive nervous system disorder that affects move
 │── train_model.py             
 │── app.py                     
 │── utils.py                  
-│── README.md    }  
+│── README.md  
 
 ## Usage
 
